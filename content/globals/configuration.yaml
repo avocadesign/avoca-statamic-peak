@@ -1,5 +1,8 @@
 title: Configuration
 data:
   error_404_entry: 059d4d8d-fc60-49f8-8823-7da10549e84e
-  copyright_since: 2020
-  privacy_statement_type: none
+  copyright_since: 2024
+  privacy_statement_type: entry
+  privacy_statement_entry: f6034cba-5256-4a11-8fc9-33559bbe344b
+  cookie_notice_type: entry
+  cookie_notice_entry: f6034cba-5256-4a11-8fc9-33559bbe344b

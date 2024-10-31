@@ -3,7 +3,12 @@ tree:
     entry: home
   -
     entry: 20f6a148-63b8-47a8-9b0e-d57095d78c21
+    children:
+      -
+        entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
   -
-    entry: 5c526dbf-9dd7-4c52-98d8-54e00ebddfb6
+    entry: 93c167b9-ba61-40d3-a6c5-f5cef9aa5419
+  -
+    entry: f6034cba-5256-4a11-8fc9-33559bbe344b
   -
     entry: 059d4d8d-fc60-49f8-8823-7da10549e84e

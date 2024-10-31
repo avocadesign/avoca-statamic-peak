@@ -17,7 +17,6 @@ return [
     'form_subject_received' => 'Contact form received',
     'form_subject_sent' => 'Contact form sent',
     'form_success' => 'Thank you, we received your message and will contact you as soon as possible.',
-    'form_required' => 'Required',
 
     // Consent banner
     'consent_accept_all' => 'Accept all',

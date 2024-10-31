@@ -4,3 +4,9 @@ tabs:
     sections:
       -
         display: General
+        fields:
+          -
+            handle: nav_new_tab
+            field:
+              type: toggle
+              display: 'Open in a new tab'
