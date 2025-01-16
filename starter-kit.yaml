@@ -1,0 +1,53 @@
+export_paths:
+  - .env.example
+  - .gitignore
+  - app/Console/Commands/PostInstall/CollectAvailableLangLocales.php
+  - app/Listeners/PreventDeletingMounts.php
+  - app/Policies/CustomUserPolicy.php
+  - app/Providers/AppServiceProvider.php
+  - content
+  - config/filesystems.php
+  - config/statamic/assets.php
+  - config/statamic/cp.php
+  - config/statamic/editions.php
+  - config/statamic/forms.php
+  - config/statamic/git.php
+  - config/statamic/live_preview.php
+  - config/statamic/search.php
+  - config/statamic/static_caching.php
+  - lang/
+  - public/robots.txt
+  - public/build
+  - public/images
+  - public/favicons/.gitkeep
+  - public/files/.gitkeep
+  - public/social_images/.gitkeep
+  - public/visuals
+  - resources/sites.yaml
+  - resources/blueprints
+  - resources/css/peak.css
+  - resources/css/site.css
+  - resources/css/typography.css
+  - resources/fieldsets
+  - resources/forms
+  - resources/js/site.js
+  - resources/js/tailwind.peak.js
+  - resources/preferences.yaml
+  - resources/svg
+  - resources/users/roles.yaml
+  - resources/views
+  - package.json
+  - package-lock.json
+  - vite.config.js
+export_as:
+  README.md: README.example.md
+dependencies:
+  studio1902/statamic-peak-browser-appearance: ^3.4
+  studio1902/statamic-peak-seo: ^8.0
+  studio1902/statamic-peak-tools: ^6.0
+modules:
+  commands:
+    prompt: 'Would you like to install the paid Peak Commands addon?'
+    default: true
+    dependencies:
+      studio1902/statamic-peak-commands: ^8.0

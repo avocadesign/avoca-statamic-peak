@@ -1,13 +1,24 @@
+<<<<<<< HEAD
 /.phpunit.cache
 /node_modules
 /public/build
 /public/hot
 /public/storage
 /public/vendor/statamic
+=======
+/node_modules
+/public/hot
+/public/storage
+/public/vendor/statamic
+/public/vendor/statamic-peak-tools
+/public/img/
+/public/static/
+>>>>>>> 064f9224356d973015c9f3c635fbd61e6b1fd818
 /storage/*.key
 /vendor
 .env
 .env.backup
+<<<<<<< HEAD
 .env.production
 .phpunit.result.cache
 Homestead.json
@@ -20,3 +31,13 @@ yarn-error.log
 /.idea
 /.vscode
 /.zed
+=======
+/.phpunit.cache
+.antlers.json
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+/.phpunit.cache
+>>>>>>> 064f9224356d973015c9f3c635fbd61e6b1fd818
