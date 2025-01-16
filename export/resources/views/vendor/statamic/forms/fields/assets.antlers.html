@@ -10,6 +10,6 @@
         name="{{ handle }}[]"
         multiple
     {{ /if }}
-    {{ instructions ?= 'aria-describedBy="{handle}-instructions"' }}
+    {{ instructions_position == 'below' ?= 'aria-describedBy="{handle}-instructions"' }}
 >
 <!-- End: /vendor/statamic/forms/fields/assets.antlers.html -->

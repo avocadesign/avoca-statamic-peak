@@ -40,4 +40,9 @@ npm-debug.log
 yarn-error.log
 
 /.phpunit.cache
+<<<<<<< HEAD
 >>>>>>> 064f9224356d973015c9f3c635fbd61e6b1fd818
+=======
+
+/public/build/
+>>>>>>> 43be414c618746cdc0ca904ea65caccc45f4908e

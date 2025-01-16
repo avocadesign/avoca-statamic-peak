@@ -29,8 +29,12 @@ return [
     'form_mail_closing' => 'Vriendelijke groeten',
     'form_mail_from' => config('app.name'),
     'form_mail_greeting' => 'Beste',
+<<<<<<< HEAD:export/lang/nl/strings.php
     'form_mail_logo' => config('app.url').'/visuals/statamic-peak-logo.png',
     'form_required' => 'Verplicht',
+=======
+    'form_mail_logo' => 'http://statamic-peak.test/visuals/statamic-peak-logo.png',
+>>>>>>> 43be414c618746cdc0ca904ea65caccc45f4908e:lang/nl/strings.php
     'form_mail_submitted' => 'Verzonden',
     'form_mail_title' => 'Contactformulier',
     'form_mail_url' => config('app.url'),

@@ -1,5 +1,6 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "name": "statamic/statamic",
     "type": "project",
     "description": "Statamic",
@@ -76,10 +77,13 @@
     "prefer-stable": true
 =======
     "name": "studio1902/statamic-peak",
+=======
+    "name": "avocadesign/avoca-statamic-peak",
+>>>>>>> 43be414c618746cdc0ca904ea65caccc45f4908e
     "extra": {
         "statamic": {
-            "name": "Statamic Peak",
-            "description": "Statamic Peak starter kit"
+            "name": "Avoca's Statamic Peak",
+            "description": "Statamic Peak starter kit - Customised by Avoca"
         }
     }
 >>>>>>> 064f9224356d973015c9f3c635fbd61e6b1fd818

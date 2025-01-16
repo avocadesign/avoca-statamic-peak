@@ -2,8 +2,8 @@
 id: 20f6a148-63b8-47a8-9b0e-d57095d78c21
 blueprint: page
 title: 'Long form content'
-updated_by: f9af1bbb-3f1a-4ce3-8f7e-eb66cbb69a9a
-updated_at: 1674898078
+updated_by: 441fac1b-bab7-4fa2-8e73-af53be9b8d68
+updated_at: 1730414224
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -250,4 +250,5 @@ page_builder:
                 button_type: button
     type: article
     enabled: true
+page_setting_show_title: false
 ---

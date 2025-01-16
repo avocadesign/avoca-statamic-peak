@@ -2,8 +2,8 @@
 id: home
 blueprint: page
 title: Home
-updated_by: ceaa75bd-bc37-4a8b-b0f2-b7af70e58b0e
-updated_at: 1693487994
+updated_by: 441fac1b-bab7-4fa2-8e73-af53be9b8d68
+updated_at: 1730414044
 seo_noindex: false
 seo_nofollow: false
 seo_canonical_type: entry
@@ -20,25 +20,27 @@ page_builder:
         content:
           -
             type: text
-            text: 'Start out on top'
+            text: "Start out on top. Let's build something great"
       -
         type: paragraph
         content:
           -
             type: text
-            text: 'Peak is your personal bespoke development sherpa. Start every project with this kit full of development goodies. '
-      -
-        type: paragraph
-        content:
+            text: 'Avoca Peak is a fast start website starter kit from Avoca Web Design, based on the amazing '
           -
             type: text
-            text: "But beware, this kit ain't here to be pretty. There are some examples of what Peak can do, but the rest is up to you. "
-      -
-        type: paragraph
-        content:
+            marks:
+              -
+                type: link
+                attrs:
+                  href: 'https://peak.1902.studio/'
+                  rel: null
+                  target: null
+                  title: null
+            text: 'Peak Starter kit'
           -
             type: text
-            text: 'Get climbing!'
+            text: .
     type: article
     enabled: true
   -
@@ -104,4 +106,5 @@ page_builder:
             target_blank: true
             url: 'https://peak.1902.studio'
             button_type: inline
+page_setting_show_title: false
 ---

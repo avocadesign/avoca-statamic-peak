@@ -11,29 +11,10 @@ fields:
       display: 'Page builder'
       button_label: 'Add block'
       sets:
-        interactive:
-          display: Interactive
-          instructions: 'Interactive blocks.'
-          icon: programming-script-code
-          sets:
-            form:
-              display: Form
-              instructions: 'Select and render a form.'
-              icon: mail-chat-bubble-text
-              fields:
-                -
-                  import: form
-            cards:
-              display: Cards
-              instructions: 'Show linkable cards with text.'
-              icon: link
-              fields:
-                -
-                  import: cards
-        text:
-          display: Text
-          instructions: 'Text based blocks.'
-          icon: text-formatting-initial-letter
+        content:
+          display: Content
+          instructions: 'General content blocks'
+          icon: content-book-open
           sets:
             article:
               display: Article
@@ -42,3 +23,22 @@ fields:
               fields:
                 -
                   import: article
+            cards:
+              display: Cards
+              instructions: 'Show linkable cards with text.'
+              icon: link
+              fields:
+                -
+                  import: cards
+        interactive:
+          display: Interactive
+          instructions: 'Forms, collections and interactive blocks'
+          icon: layout-grid-dots
+          sets:
+            form:
+              display: Form
+              instructions: 'Select and render a form.'
+              icon: mail-chat-bubble-text
+              fields:
+                -
+                  import: form
